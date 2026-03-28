@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Repository Analyzer MCP
 
 > **Intelligent codebase analysis and documentation generation for modern development teams**
