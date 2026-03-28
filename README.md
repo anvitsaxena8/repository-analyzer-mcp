@@ -595,6 +595,3 @@ MIT © Anvit Saxena
 ---
 
 **Built with ❤️ using the Model Context Protocol (MCP)**
-=======
-# repository-analyzer-mcp
->>>>>>> fc8532f40a3ee695de702f710ca1221f98e36ad3
