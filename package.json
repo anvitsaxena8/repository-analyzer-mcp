@@ -1,6 +1,6 @@
 {
   "name": "repository-analyzer-mcp",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "MCP server for comprehensive codebase analysis, dependency intelligence, automated documentation generation, and multi-repository workspace analysis",
   "type": "module",
   "main": "dist/index.js",

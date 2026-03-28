@@ -8,3 +8,6 @@ dist/
 # Documentation - keep only README.md for npm
 *.md
 !README.md
+
+# Test projects
+test-project/
