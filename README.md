@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Repository Analyzer MCP
 
 > **Intelligent codebase analysis and documentation generation for modern development teams**
@@ -186,6 +187,14 @@ get_dependency_tree({ project_path: "/path/to/project" })
 **Supports:** npm (package-lock.json), Maven (mvn dependency:tree), Gradle, pip
 **Output:** Tree structure showing nested dependencies
 
+#### `detect_circular_dependencies`
+Detect circular dependencies in the dependency graph using DFS traversal.
+```javascript
+detect_circular_dependencies()
+```
+**Critical for:** Java/Spring projects where circular dependencies cause build failures
+**Shows:** Complete dependency cycles like "Module A → B → C → A"
+
 ### 2. Code Analysis (3 tools)
 
 #### `analyze_code_imports`
@@ -270,13 +279,13 @@ scan_security_vulnerabilities({ project_path: "/path/to/project" })
 **Detects:** CVEs, severity ratings, outdated packages
 **Returns:** Vulnerability report with fix suggestions
 
-#### `detect_circular_dependencies`
-Detect circular dependencies in the dependency graph using DFS traversal.
+#### `detect_performance_bottlenecks`
+Detect performance bottlenecks in the codebase.
 ```javascript
-detect_circular_dependencies()
+detect_performance_bottlenecks({ project_path: "/path/to/project" })
 ```
-**Critical for:** Java/Spring projects where circular dependencies cause build failures
-**Shows:** Complete dependency cycles like "Module A → B → C → A"
+**Analyzes:** Code complexity, coupling, and cohesion
+**Returns:** Performance optimization suggestions
 
 ### 5. Data Flow & Tracing (1 tool)
 
@@ -303,7 +312,6 @@ generate_repo_document({
   project_path: "/path/to/project"
 })
 ```
-
 **Output Types:**
 - **`summary`** - Quick onboarding doc with tech stack and dependencies
 - **`architecture`** - Detailed structural analysis with patterns and hotspots  
@@ -587,3 +595,6 @@ MIT © Anvit Saxena
 ---
 
 **Built with ❤️ using the Model Context Protocol (MCP)**
+=======
+# repository-analyzer-mcp
+>>>>>>> fc8532f40a3ee695de702f710ca1221f98e36ad3
