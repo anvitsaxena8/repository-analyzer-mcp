@@ -11,3 +11,6 @@ dist/
 
 # Test projects
 test-project/
+
+# Test scripts
+test-*.js
