@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.db
+.DS_Store
+*.log
+
+# Documentation - keep only README.md for npm
+*.md
+!README.md

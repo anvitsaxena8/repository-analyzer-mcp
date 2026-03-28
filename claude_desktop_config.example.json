@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "repository-analyzer": {
+      "command": "node",
+      "args": ["/Users/yourusername/path/to/repository-analyzer-mcp/dist/index.js"]
+    }
+  }
+}

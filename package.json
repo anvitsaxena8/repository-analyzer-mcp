@@ -1,0 +1,56 @@
+{
+  "name": "repository-analyzer-mcp",
+  "version": "1.2.0",
+  "description": "MCP server for comprehensive codebase analysis, dependency intelligence, automated documentation generation, and multi-repository workspace analysis",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "repository-analyzer-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo 'Add tests here'"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "codebase",
+    "dependencies",
+    "indexing",
+    "documentation",
+    "architecture",
+    "code-analysis",
+    "dependency-graph",
+    "ai-assistant"
+  ],
+  "engines": {
+    "node": ">=18 <=22"
+  },
+  "author": "Anvit Saxena <anvitsaxena@outlook.com>",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "^9.6.0",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.3.5",
+    "zod": "^3.22.4",
+    "tree-sitter": "^0.21.0",
+    "tree-sitter-javascript": "^0.21.0",
+    "tree-sitter-typescript": "^0.21.0",
+    "tree-sitter-java": "^0.21.0",
+    "tree-sitter-python": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/better-sqlite3": "^7.6.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
